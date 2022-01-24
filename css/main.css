@@ -402,59 +402,66 @@ body {
   overflow: hidden;
 }
 
-.header {
+.header-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 44px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px 0;
 }
 
-.header__logo {
-  background: transparent;
-}
-
-.navbar__list {
+.nav__list {
+  width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
   padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style: none;
 }
 
-.navbar__item {
+.nav__item1 {
   width: 34px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
-.navbar__item:nth-child(2) {
-  width: 64px;
-  margin-right: 33px;
-  margin-left: 33px;
+.nav__item1:hover {
+  color: #FDD6BA;
 }
 
-.navbar__item:nth-child(2) {
-  width: 131px;
+.nav__item2 {
+  width: 96px;
+  margin: 0 33px;
 }
 
-.navbar__link {
-  display: block;
+.nav__item3 {
+  width: 160px;
+}
+
+.nav__link {
   text-decoration: none;
-  font-family: "Barlow", "Arial" sans-serif;
+  font-family: Barlow;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
   color: #83888F;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
-.navbar__link:hover {
-  color: #333D4B;
+.nav__link:hover {
+  color: #FDD6BA;
 }
 
 .intro {
@@ -731,12 +738,13 @@ body {
   color: #333D4B;
 }
 
-.footer__box {
+.footer-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1280px;
-  height: 120px;
+  margin: 44px 0;
+  margin-top: 200px;
+  padding: 47px 85px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -746,105 +754,73 @@ body {
   background-color: #2C343E;
 }
 
-.footer__mix__box {
+.footer-nav {
+  width: 622px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 622px;
-  margin-left: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.footer__box__inner {
-  margin-top: 50px;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-left: auto;
-}
-
-.left__box__logo {
-  width: 236px;
-  height: 26px;
-}
-
-.footer__navbar {
-  margin-left: 100px;
-}
-
-.footer__box__navbar__link {
-  color: #83888F;
-}
-
-.footer__box__navbar__link:hover {
-  color: white;
-}
-
-.navbar__item {
-  width: 34px;
-  height: 15px;
-}
-
-.navbar__item:nth-child(2) {
-  width: 64px;
-}
-
-.navbar__item:nth-child(3) {
-  width: 131px;
-}
-
-.right-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: auto;
 }
 
-.right__box__list {
+.footer-inner__logo {
+  margin-right: 103px;
+}
+
+.nav__list {
+  width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 180px;
-  margin-left: 300px;
+  padding: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.right__box__item {
+.nav__item1 {
+  width: 34px;
+}
+
+.nav__item2 {
+  width: 96px;
+  margin: 0 33px;
+}
+
+.nav__item3 {
+  width: 160px;
+}
+
+.nav__link1 {
   text-decoration: none;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
-.right__box__link__facebook {
-  width: 24px;
-  height: 9.5;
-  background-image: url(../images/facebook_svg.svg);
+.nav__link1:hover {
+  color: white;
 }
 
-.right__box__link__facebook:hover {
-  background-image: url(../images/facebook_svg.svg);
-}
-
-.right__box__item__img {
-  fill: white;
-  -webkit-transition: fill 0.2s ease;
-  transition: fill 0.2s ease;
-}
-
-.right__box__item__img:hover {
-  fill: #FDD6BA;
-  -webkit-transition: fill 0.2s ease;
-  transition: fill 0.2s ease;
+.footer-icon {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
