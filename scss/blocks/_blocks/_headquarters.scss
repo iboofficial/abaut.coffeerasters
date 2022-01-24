@@ -1,0 +1,115 @@
+.headquarters__title{
+  margin-top: 100px;
+  margin-left: 125px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+ .headquarters-inner{
+   width: 1045px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   vertical-align: middle;
+ }
+
+ .headquarters-inner__left{
+   width: 292px;
+   margin-right: 108px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .headquarters-inner__left__img{
+   width: 41px;
+   height: 49px;
+   margin-top: 72px;
+ }
+
+ .headquarters-inner__left__title{
+  margin-top: 46px;
+  padding: 0;
+  font-family: $--main-color-dark-cyan;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: $--main-color-dark-gray-blue;
+ }
+
+ .headquarters-inner__left__address{
+   margin-bottom: 168px;
+  font-family: $--main-font-family-Barlow;
+  font-size: 16px;
+  line-height: 26px;
+  color: $--main-color-dark-gray-blue;
+  
+ }
+
+ .headquarters-inner__mid{
+  width: 292px;
+  margin-right: 108px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .headquarters-inner__mid__img{
+  margin-top: 72px;
+   width: 52px;
+   height: 50px;
+ }
+
+ .headquarters-inner__mid__title{
+   margin-top: 46px;
+   padding: 0;
+  font-family: $--main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: $--main-color-dark-gray-blue;
+
+ }
+
+ .headquarters-inner__mid__address{
+  margin-bottom: 168px;
+  font-family: $--main-font-family-Barlow;
+  font-size: 16px;
+  line-height: 26px; 
+  color: $--main-color-dark-gray-blue;
+  
+ }
+
+ .headquarters-inner__right{
+  width: 292px;
+  margin-right: 108px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .headquarters-inner__right__img{
+  margin-top: 72px;
+   width: 49px;
+   height: 44px;
+ }
+
+ .headquarters-inner__right__title{
+  margin-top: 46px;
+  padding: 0;
+  font-family: $--main-font-family-Fraunces;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: $--main-color-dark-gray-blue;
+  
+ }
+
+ .headquarters-inner__right__address{
+  margin-bottom: 168px;
+  font-family: $--main-font-family-Barlow;
+  font-size: 16px;
+  line-height: 26px;
+  color: $--main-color-dark-gray-blue;
+  
+ }

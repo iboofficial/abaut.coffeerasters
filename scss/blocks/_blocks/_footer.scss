@@ -1,0 +1,92 @@
+.footer__box{
+  display: flex;
+  width: 1280px;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2C343E;
+}
+
+.footer__mix__box{
+  display: flex;
+  justify-content: space-between;
+  width: 622px;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.footer__box__inner{
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.left__box__logo{
+  width: 236px;
+  height: 26px;
+}
+
+.footer__navbar{
+  margin-left: 100px;
+}
+
+.footer__box__navbar__link{
+  color: #83888F;
+}
+
+.footer__box__navbar__link:hover{
+  color: white;
+}
+
+.navbar__item{
+  width: 34px;
+  height: 15px;
+}
+
+.navbar__item:nth-child(2){
+  width: 64px;
+}
+
+.navbar__item:nth-child(3){
+  width: 131px; 
+}
+
+.right-box{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.right__box__list{
+  display: flex;
+  width: 180px;
+  margin-left: 300px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.right__box__item{
+  text-decoration: none;
+}
+
+.right__box__link__facebook{
+  width: 24px;
+  height: 9.5;
+  background-image: url(../images/facebook_svg.svg);
+}
+
+.right__box__link__facebook:hover{
+  background-image: url(../images/facebook_svg.svg);
+}
+
+.right__box__item__img{
+  fill: white;
+  transition: fill 0.2s ease;
+}
+
+.right__box__item__img:hover{
+  fill: #FDD6BA;
+  transition: fill 0.2s ease;
+} 
